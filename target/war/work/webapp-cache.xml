@@ -6,14 +6,15 @@
         <pathsSet class="linked-hash-set">
           <string>WEB-INF/appengine-web.xml</string>
           <string>WEB-INF/views/home.jsp</string>
+          <string>WEB-INF/views/usersList.jsp</string>
           <string>WEB-INF/spring/appServlet/servlet-context.xml</string>
           <string>WEB-INF/spring/root-context.xml</string>
           <string>WEB-INF/web.xml</string>
-          <string>index.jsp</string>
           <string>META-INF/MANIFEST.MF</string>
           <string>WEB-INF/classes/logging.properties</string>
           <string>WEB-INF/classes/log4j.properties</string>
           <string>WEB-INF/classes/it/trew/prove/web/HomeController.class</string>
+          <string>WEB-INF/classes/it/trew/prove/web/UsersController.class</string>
           <string>WEB-INF/lib/appengine-api-1.0-sdk-1.5.3.jar</string>
           <string>WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar</string>
           <string>WEB-INF/lib/geronimo-jpa_3.0_spec-1.1.1.jar</string>
