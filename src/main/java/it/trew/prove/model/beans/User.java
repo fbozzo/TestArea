@@ -2,6 +2,8 @@ package it.trew.prove.model.beans;
 
 import javax.persistence.Id;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 import com.googlecode.objectify.annotation.Entity;
 
 @Entity
@@ -13,7 +15,9 @@ public class User {
 	String firstName;
 	String lastName;
 	
+	@NotEmpty
 	String username;
+	
 	String passwordHash;
 	
 	public User() {

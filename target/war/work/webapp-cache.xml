@@ -11,8 +11,8 @@
           <string>WEB-INF/spring/root-context.xml</string>
           <string>WEB-INF/web.xml</string>
           <string>META-INF/MANIFEST.MF</string>
+          <string>WEB-INF/classes/log4j.xml</string>
           <string>WEB-INF/classes/logging.properties</string>
-          <string>WEB-INF/classes/log4j.properties</string>
           <string>WEB-INF/classes/it/trew/prove/server/services/UsersServiceImpl.class</string>
           <string>WEB-INF/classes/it/trew/prove/server/services/UsersService.class</string>
           <string>WEB-INF/classes/it/trew/prove/model/beans/User.class</string>
@@ -31,6 +31,8 @@
           <string>WEB-INF/lib/appengine-tools-sdk-1.5.3.jar</string>
           <string>WEB-INF/lib/objectify-3.0.1.jar</string>
           <string>WEB-INF/lib/persistence-api-1.0.jar</string>
+          <string>WEB-INF/lib/jackson-mapper-asl-1.8.1.jar</string>
+          <string>WEB-INF/lib/jackson-core-asl-1.8.1.jar</string>
           <string>WEB-INF/lib/spring-context-3.0.6.RELEASE.jar</string>
           <string>WEB-INF/lib/spring-aop-3.0.6.RELEASE.jar</string>
           <string>WEB-INF/lib/aopalliance-1.0.jar</string>
@@ -42,6 +44,8 @@
           <string>WEB-INF/lib/spring-context-support-3.0.6.RELEASE.jar</string>
           <string>WEB-INF/lib/spring-web-3.0.6.RELEASE.jar</string>
           <string>WEB-INF/lib/aspectjrt-1.6.9.jar</string>
+          <string>WEB-INF/lib/validation-api-1.0.0.GA.jar</string>
+          <string>WEB-INF/lib/hibernate-validator-4.1.0.Final.jar</string>
           <string>WEB-INF/lib/slf4j-api-1.5.10.jar</string>
           <string>WEB-INF/lib/jcl-over-slf4j-1.5.10.jar</string>
           <string>WEB-INF/lib/slf4j-log4j12-1.5.10.jar</string>
@@ -92,6 +96,18 @@
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>
+        <groupId>org.codehaus.jackson</groupId>
+        <artifactId>jackson-mapper-asl</artifactId>
+        <version>1.8.1</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>jackson-mapper-asl-1.8.1.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
         <version>3.0.6.RELEASE</version>
@@ -130,6 +146,30 @@
         <optional>false</optional>
       </dependency>
       <targetFileName>aspectjrt-1.6.9.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>javax.validation</groupId>
+        <artifactId>validation-api</artifactId>
+        <version>1.0.0.GA</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>validation-api-1.0.0.GA.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>4.1.0.Final</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>hibernate-validator-4.1.0.Final.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>

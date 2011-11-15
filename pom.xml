@@ -51,6 +51,12 @@
 	  <version>1.0</version>
 	</dependency>
 	
+	<!-- Jackson JSON Processor -->
+	<dependency>
+		<groupId>org.codehaus.jackson</groupId>
+		<artifactId>jackson-mapper-asl</artifactId>
+		<version>1.8.1</version>
+	</dependency>
         
 		<!-- Spring -->
 		<dependency>
@@ -77,6 +83,20 @@
 			<artifactId>aspectjrt</artifactId>
 			<version>${org.aspectj-version}</version>
 		</dependency>	
+		
+		
+		<!-- JSR 303 with Hibernate Validator -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.0.0.GA</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>4.1.0.Final</version>
+		</dependency>
+		
 		
 		<!-- Logging -->
 		<dependency>
