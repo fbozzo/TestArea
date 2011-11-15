@@ -13,6 +13,11 @@
           <string>META-INF/MANIFEST.MF</string>
           <string>WEB-INF/classes/logging.properties</string>
           <string>WEB-INF/classes/log4j.properties</string>
+          <string>WEB-INF/classes/it/trew/prove/server/services/UsersServiceImpl.class</string>
+          <string>WEB-INF/classes/it/trew/prove/server/services/UsersService.class</string>
+          <string>WEB-INF/classes/it/trew/prove/model/beans/User.class</string>
+          <string>WEB-INF/classes/it/trew/prove/model/dao/UsersDao.class</string>
+          <string>WEB-INF/classes/it/trew/prove/model/dao/ObjectifyDao.class</string>
           <string>WEB-INF/classes/it/trew/prove/web/HomeController.class</string>
           <string>WEB-INF/classes/it/trew/prove/web/UsersController.class</string>
           <string>WEB-INF/lib/appengine-api-1.0-sdk-1.5.3.jar</string>
@@ -24,6 +29,8 @@
           <string>WEB-INF/lib/datanucleus-appengine-1.0.9.jar</string>
           <string>WEB-INF/lib/datanucleus-jpa-1.1.5.jar</string>
           <string>WEB-INF/lib/appengine-tools-sdk-1.5.3.jar</string>
+          <string>WEB-INF/lib/objectify-3.0.1.jar</string>
+          <string>WEB-INF/lib/persistence-api-1.0.jar</string>
           <string>WEB-INF/lib/spring-context-3.0.6.RELEASE.jar</string>
           <string>WEB-INF/lib/spring-aop-3.0.6.RELEASE.jar</string>
           <string>WEB-INF/lib/aopalliance-1.0.jar</string>
@@ -58,6 +65,30 @@
         <optional>false</optional>
       </dependency>
       <targetFileName>gae-runtime-1.5.3.pom</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>com.googlecode.objectify</groupId>
+        <artifactId>objectify</artifactId>
+        <version>3.0.1</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>objectify-3.0.1.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>persistence-api</artifactId>
+        <version>1.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>persistence-api-1.0.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>

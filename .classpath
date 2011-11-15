@@ -10,6 +10,7 @@
   <classpathentry kind="var" path="M2_REPO/javax/jdo/jdo2-api/2.3-eb/jdo2-api-2.3-eb.jar" sourcepath="M2_REPO/javax/jdo/jdo2-api/2.3-eb/jdo2-api-2.3-eb-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar" sourcepath="M2_REPO/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/servlet/jstl/1.2/jstl-1.2.jar" sourcepath="M2_REPO/javax/servlet/jstl/1.2/jstl-1.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar" sourcepath="M2_REPO/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar" sourcepath="M2_REPO/javax/transaction/transaction-api/1.1/transaction-api-1.1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
@@ -27,8 +28,7 @@
   <classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.5.10/jcl-over-slf4j-1.5.10.jar" sourcepath="M2_REPO/org/slf4j/jcl-over-slf4j/1.5.10/jcl-over-slf4j-1.5.10-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/junit/junit/4.7/junit-4.7.jar" sourcepath="M2_REPO/junit/junit/4.7/junit-4.7-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.15/log4j-1.2.15.jar" sourcepath="M2_REPO/log4j/log4j/1.2.15/log4j-1.2.15-sources.jar"/>
-  <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-classic/0.9.24/logback-classic-0.9.24.jar" sourcepath="M2_REPO/ch/qos/logback/logback-classic/0.9.24/logback-classic-0.9.24-sources.jar"/>
-  <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-core/0.9.24/logback-core-0.9.24.jar" sourcepath="M2_REPO/ch/qos/logback/logback-core/0.9.24/logback-core-0.9.24-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/googlecode/objectify/objectify/3.0.1/objectify-3.0.1.jar" sourcepath="M2_REPO/com/googlecode/objectify/objectify/3.0.1/objectify-3.0.1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.5.10/slf4j-api-1.5.10.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.5.10/slf4j-api-1.5.10-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.5.10/slf4j-log4j12-1.5.10.jar" sourcepath="M2_REPO/org/slf4j/slf4j-log4j12/1.5.10/slf4j-log4j12-1.5.10-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/3.0.6.RELEASE/spring-aop-3.0.6.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/3.0.6.RELEASE/spring-aop-3.0.6.RELEASE-sources.jar"/>

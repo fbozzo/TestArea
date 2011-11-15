@@ -16,6 +16,19 @@
     </pluginRepository>
   </pluginRepositories>
   
+  <repositories>
+  	<repository>
+        <id>objectify-appengine</id>
+        <name>Objectify Maven Repository</name>
+        <url>http://objectify-appengine.googlecode.com/svn/maven</url>
+    </repository>
+  	<repository>
+        <id>google-maven-repo</id>
+        <name>Google Maven Repository</name>
+        <url>http://google-maven-repository.googlecode.com/svn/repository/</url>
+    </repository>
+  </repositories>
+  
 	<dependencies>
 
     <!-- Google App Engine meta-package -->
@@ -25,6 +38,19 @@
       <version>${gae.version}</version>
       <type>pom</type>
     </dependency>
+        
+	<!-- Objectify -->
+	<dependency>
+        <groupId>com.googlecode.objectify</groupId>
+        <artifactId>objectify</artifactId>
+        <version>3.0.1</version>
+    </dependency>
+    <dependency>
+	  <groupId>javax.persistence</groupId>
+	  <artifactId>persistence-api</artifactId>  
+	  <version>1.0</version>
+	</dependency>
+	
         
 		<!-- Spring -->
 		<dependency>
