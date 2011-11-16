@@ -1,6 +1,7 @@
 package it.trew.prove.model.beans;
 
 import javax.persistence.Id;
+import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
@@ -16,6 +17,7 @@ public class User {
 	String lastName;
 	
 	@NotEmpty
+	@Size(min=3,max=20)
 	String username;
 	
 	String passwordHash;

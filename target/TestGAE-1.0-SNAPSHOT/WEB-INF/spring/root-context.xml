@@ -10,7 +10,9 @@
 	<context:component-scan base-package="it.trew.prove" />
 	
 	<bean id="usersDao" class="it.trew.prove.model.dao.UsersDao" />
+	<bean id="usersService" class="it.trew.prove.server.services.UsersService" />
 	
-	<bean id="usersService" class="it.trew.prove.server.services.UsersServiceImpl" autowire="constructor" />
+	<bean id="fattureDao" class="it.trew.prove.model.dao.FattureDao" />
+	<bean id="fatturaService" class="it.trew.prove.server.services.FatturaService" />
 		
 </beans>

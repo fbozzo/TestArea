@@ -14,6 +14,8 @@
 		
 		<p>
 			<a href="/users">Gestione Utenti</a>
+			<br />
+			<a href="/fatture">Fatture</a>
 		</p>	
 	
 </body>

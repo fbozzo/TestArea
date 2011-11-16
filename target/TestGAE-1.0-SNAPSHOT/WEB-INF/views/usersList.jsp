@@ -4,6 +4,7 @@
     
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -19,7 +20,7 @@
 		
 		<h1>Utenti</h1>
 		
-		<form action="/users" method="post">
+		<form:form action="/users" method="post" commandName="theUser">
 			<table>
 				<tr>
 					<td colspan="2">	
@@ -31,7 +32,7 @@
 						Username:
 					</td>
 					<td>
-						<input type="text" name="username" />
+						<form:input path="username"/>
 					</td>
 				</tr>
 				<tr>
@@ -39,7 +40,7 @@
 						Nome:
 					</td>
 					<td>
-						<input type="text" name="firstName" />
+						<form:input path="firstName"/>
 					</td>
 				</tr>
 				<tr>
@@ -47,7 +48,7 @@
 						Cognome:
 					</td>
 					<td>
-						<input type="text" name="lastName" />
+						<form:input path="lastName"/>
 					</td>
 				</tr>
 				<tr>
@@ -57,7 +58,7 @@
 					</td>
 				</tr>
 			</table>
-		</form>
+		</form:form>
 		
 		<hr />
 		

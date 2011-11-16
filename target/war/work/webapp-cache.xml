@@ -5,6 +5,7 @@
       <path-set>
         <pathsSet class="linked-hash-set">
           <string>WEB-INF/appengine-web.xml</string>
+          <string>WEB-INF/views/fatture.jsp</string>
           <string>WEB-INF/views/home.jsp</string>
           <string>WEB-INF/views/usersList.jsp</string>
           <string>WEB-INF/spring/appServlet/servlet-context.xml</string>
@@ -13,11 +14,14 @@
           <string>META-INF/MANIFEST.MF</string>
           <string>WEB-INF/classes/log4j.xml</string>
           <string>WEB-INF/classes/logging.properties</string>
-          <string>WEB-INF/classes/it/trew/prove/server/services/UsersServiceImpl.class</string>
+          <string>WEB-INF/classes/it/trew/prove/server/services/FatturaService.class</string>
           <string>WEB-INF/classes/it/trew/prove/server/services/UsersService.class</string>
+          <string>WEB-INF/classes/it/trew/prove/model/beans/Fattura.class</string>
           <string>WEB-INF/classes/it/trew/prove/model/beans/User.class</string>
+          <string>WEB-INF/classes/it/trew/prove/model/dao/FattureDao.class</string>
           <string>WEB-INF/classes/it/trew/prove/model/dao/UsersDao.class</string>
           <string>WEB-INF/classes/it/trew/prove/model/dao/ObjectifyDao.class</string>
+          <string>WEB-INF/classes/it/trew/prove/web/FattureController.class</string>
           <string>WEB-INF/classes/it/trew/prove/web/HomeController.class</string>
           <string>WEB-INF/classes/it/trew/prove/web/UsersController.class</string>
           <string>WEB-INF/lib/appengine-api-1.0-sdk-1.5.3.jar</string>
